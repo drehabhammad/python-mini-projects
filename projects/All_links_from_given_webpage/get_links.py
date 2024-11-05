@@ -1,7 +1,7 @@
 import requests as rq
 from bs4 import BeautifulSoup
 
-url = input("Enter Link: ")
+url = input("Enter Link:https://www.msn.com/en-us/news/politics/trump-vs-harris-us-voters-head-to-polls-as-turbulent-campaign-concludes/ar-AA1ty1Tu?ocid=msedgdhp&pc=U531&cvid=1c0b1253dea3495f92314010dae3f7bf&ei=9 ")
 if ("https" or "http") in url:
     data = rq.get(url)
 else:
